@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Mark</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="head"><h1>Grading System</h1></div>
+
+        <label>Applied Mathematics-1</label>  <input type="text" id="mat"><br>
+        <label>Applied Physics-1</label>      <input type="text" id="phy"><br>
+        <label>Applied Chemistry-1</label>    <input type="text" id="chm"><br>
+        <label>Manufacturing Process</label>  <input type="text" id="pro"><br>
+        <label>Science & Technology</label>   <input type="text" id="sci"><br>
+        <label>Communication Skills-1</label> <input type="text" id="com"><br>
+        <br>
+
+        <button class="btn1" onclick="total();">Total</button>
+        <button class="btn1" onclick="Average();">Average</button>
+        <button class="btn1" onclick="grade();">Grade</button>
+    </div>
+
+    <div id="result">
+        <div id="head1"><h1>Total</h1></div>
+        <div id="total">
+
+        </div>
+        <div id="head2"><h1>Average</h1></div>
+        <div id="average">
+
+        </div>
+        <div id="head3"><h1>Grade</h1></div>
+        <div id="grade">
+
+        </div>
+    </div>
+</body>
+</html>
